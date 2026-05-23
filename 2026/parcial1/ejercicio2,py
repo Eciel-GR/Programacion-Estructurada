@@ -1,0 +1,147 @@
+'''
+  Crear un programa que calcule e imprima cualquier tabla de multiplicar
+
+  Restricciones: 
+  1.- Sin estructuras de control
+  2.- Sin funciones
+
+  
+'''
+
+num_tabla=int(input("Numero de la tabla de multiplicar: "))
+
+num=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+multi=num_tabla*num
+print(f"{num_tabla} x {num}  = {multi} ")
+num+=1
+
+
+'''
+  Crear un programa que calcule e imprima cualquier tabla de multiplicar
+
+  Restricciones: 
+  1.- Con estructuras de control solo while
+  2.- Sin funciones
+
+'''
+print("\033c")
+
+num_tabla=int(input("Numero de la tabla de multiplicar: "))
+
+for num in range(1,11):
+  multi=num_tabla*num
+  print(f"{num_tabla} x {num}  = {multi} ")
+  
+num=1
+while num<11:
+  multi=num_tabla*num
+  print(f"{num_tabla} x {num}  = {multi} ")
+  num+=1
+  
+'''
+  Crear un programa que calcule e imprima cualquier tabla de multiplicar
+
+  Restricciones: 
+  1.- Sin estructuras de control 
+  2.- Con funciones
+
+'''
+print("\033c")
+def tabla(num_tab,n):
+    mul=num_tab*n
+    print(f"{num_tab} x {n}  = {mul} ")
+    n+=1
+    return n
+    
+num_tabla=int(input("Numero de la tabla de multiplicar: "))
+num=1
+
+n=tabla(num_tabla,num)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+n=tabla(num_tabla,n)
+
+'''
+  Crear un programa que calcule e imprima cualquier tabla de multiplicar
+
+  Restricciones: 
+  1.- Con estructuras de control 
+  2.- Con funciones
+
+'''
+
+print("\033c")
+def tabla(num_tab,n):
+    mul=num_tab*n
+    print(f"{num_tab} x {n}  = {mul} ")
+    n+=1
+    return n
+    
+num_tabla=int(input("Numero de la tabla de multiplicar: "))
+n=1
+
+for i in range(10,0,-1):
+  n=tabla(num_tabla,n)
+
+
+
+
+
+
+numero = float(input("¿Qué tabla de multiplicar le gustaría? "))
+
+
+
+print(f"{numero} x 1 es: {numero*1}")
+print(f"{numero} x 2 es: {numero*2}")
+print(f"{numero} x 3 es: {numero*3}")
+print(f"{numero} x 4 es: {numero*4}")
+print(f"{numero} x 5 es: {numero*5}")
+print(f"{numero} x 6 es: {numero*6}")
+print(f"{numero} x 7 es: {numero*7}")
+print(f"{numero} x 8 es: {numero*8}")
+print(f"{numero} x 9 es: {numero*9}")
+print(f"{numero} x 10 es: {numero*10}")
