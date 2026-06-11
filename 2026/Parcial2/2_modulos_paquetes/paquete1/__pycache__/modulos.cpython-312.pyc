@@ -1,0 +1,30 @@
+Ë
+    îž4h<  ã                   ó6   — d dl Z d„ Zd„ Zd„ Zd„ Zd„ Zd „ Zd„ Z y)	é    Nc                  óR   — t        d«      } t        d«      }t        d| › d|› «       y )NúNombre: ú
+Telefono: zSoy funcion 1: El nombre es: ú y su telefono es: )ÚinputÚprint©ÚnombreÚtels     úg/Users/dagfiscal/python/programacion_estructurada_2025/P1_2A_CLA/2_modulos_paquetes/paquete1/modulos.pyÚsolicitarDatos1r
+      s-   € Ü
+Ó
+€FÜ
+ˆlÓ€CÜ	Ð)¨&¨Ð1DÀSÀEÐ
+JÕKó    c                 ó.   — | }|}t        d|› d|› «       y )NzSoy funcion 3: El nombre es: r   )r   ©r
+   r
+   ÚnomÚtelefonos       r   ÚsolicitarDatos3r   
+   s#   € Ø€CØ
+€HÜ	Ð)¨#¨Ð.AÀ(ÀÐ
+LÕMr   c                  ó6   — t        d«      } t        d«      }| |fS )Nr   r   ©r    r	   s     r   ÚsolicitarDatos2r      s    € Ü
+Ó
+€FÜ
+ˆlÓ€CØ
+#ˆ:Ðr   c                 ó   — | }|}||fS )N© r   s       r   ÚsolicitarDatos4r      s   € Ø€CØ
+€HØ
+ˆxˆ<Ðr   c                  ó.   — t        j                  d«       y )NÚclear)ÚosÚsystemr   r   r   ÚborrarPantallar      s   € Ü‡))ˆGÕr   c                  ó   — t        d«       y )Nz(... Oprima una tecla para continuar ... r   r   r   r   Ú
+espereTeclar       s
+   € Ü Ð2Õ3r   c                 ó   — | }d|› dS )Nu   	Â¡Hola, bienvenido: z!
+r   )r
+   r   s     r   Ú saludarr"       s   € Ø 
+€3Ø" 3 % sÐ
++Ð+r   )r   r
+   r   r   r   r   r    r"   r   r   r   ú<module>r#      s/   ðó 
+òLò
+Nò
+òò
+ò4ó,r   
